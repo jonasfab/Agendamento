@@ -1,34 +1,313 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listagem de pessoas</title>
-    <link rel="stylesheet" href="main.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap" rel="stylesheet">
-
-    <script src="https://code.jquery.com/jquery-1.11.2.js"></script>
-    <script type="text/javascript">
-        jQuery(window).load(function ($) {
-            atualizaRelogio();
-        });
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <section id="page-1">
-        <a href="#page-2"><img src="icons8.png"></a>
+
+  <section class="section1" style="height: 50vh;">
+
+  </section>
+
+  <section class="section2" style="height: 10vh;">
+<div class="sectiontop2"></div>
+
+  </section>
+
+  <section class="card">
+    <div class="voool">
+      <div class="cp_wrapper">
+        <h1>Notebook</h1>
+        <div class="filters">
+          <div class="filters-controls">
+            <button type="button" class="filter-control" data-filter="all" aria-selected="true">Todos</button>
+            <button type="button" class="filter-control" data-filter="dell" aria-selected="false">Dell</button>
+            <button type="button" class="filter-control" data-filter="lenovo" aria-selected="false">Lenovo</button>
+            <button type="button" class="filter-control" data-filter="hp" aria-selected="false">HP</button>
+
+          </div>
+
+          <div class="filters-panel grid gap" data-columns="4" data-animation-delay="250">
+
+            <!-- Filter Item -->
+            <div class="item" data-filter-categories="hp">
+              <div class="card">
 
 
+                <div class="item__thumbnail"><img
+                    src="https://images.unsplash.com/photo-1522748906645-95d8adfd52c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80"
+                    alt="Image">
+                </div>
+                <div class="item__title">
+                  <h1>HP</h1>
+                  <h2>NOTEBOOK Intel Core i5 - 5ª GERAÇÃO</h2>
+                </div>
 
-        <div id="inserirDados">
+                <ul>
+                  <li>SSD - 240Gb</li>
+                  <li>PLACA DE VIDEO</li>
+                  <li>RAM - 8Gb</li>
+                  <li>PORTA GIGA</li>
+                  <li>5300U CPU</li>
+                  <li>2.30GHZ - 2.29GHZ</li>
+                  <li>SISTEMA OPERACIONAL 64 bites</li>
+                  <li>WINDOWS 10</li>
+                </ul>
 
-            <div class="title">
-                <h1>AGENDAMENTO VEICULOS - MULTILOG</h1>
+                <div class="preco">
+                  <h2>R$ 1.460,67</h2>
+                  <h1>R$ 1.300,00 <span>No Pix</span></h1>
+                  <h4>(-11%)</h4>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Filter Item -->
+            <div class="item" data-filter-categories="lenovo">
+              <div class="card">
+
+                <div class="item__thumbnail"><img
+                    src="https://images.unsplash.com/photo-1604537466158-719b1972feb8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2669&q=80"
+                    alt="Image">
+                </div>
+
+                <div class="item__title">
+                  <h1>Lenovo</h1>
+                  <h2>NOTEBOOK Intel Core i5 - 5ª GERAÇÃO</h2>
+                </div>
+
+                <ul>
+                  <li>SSD - 240Gb</li>
+                  <li>PLACA DE VIDEO</li>
+                  <li>RAM - 8Gb</li>
+                  <li>PORTA GIGA</li>
+                  <li>5300U CPU</li>
+                  <li>2.30GHZ - 2.29GHZ</li>
+                  <li>SISTEMA OPERACIONAL 64 bites</li>
+                  <li>WINDOWS 10</li>
+                </ul>
+
+                <div class="preco">
+                  <h2>R$ 1.460,67</h2>
+                  <h1>R$ 1.300,00 <span>No Pix</span></h1>
+                  <h4>(-11%)</h4>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Filter Item -->
+            <div class="item" data-filter-categories="lenovo">
+              <div class="card">
+
+
+                <div class="item__thumbnail"><img
+                    src="https://plus.unsplash.com/premium_photo-1675271988124-55694ef43fd4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2709&q=80"
+                    alt="Image">
+                </div>
+
+                <div class="item__title">
+                  <h1>Lenovo</h1>
+                  <h2>NOTEBOOK Intel Core i5 - 5ª GERAÇÃO</h2>
+                </div>
+
+                <ul>
+                  <li>SSD - 240Gb</li>
+                  <li>PLACA DE VIDEO</li>
+                  <li>RAM - 8Gb</li>
+                  <li>PORTA GIGA</li>
+                  <li>5300U CPU</li>
+                  <li>2.30GHZ - 2.29GHZ</li>
+                  <li>SISTEMA OPERACIONAL 64 bites</li>
+                  <li>WINDOWS 10</li>
+                </ul>
+
+                <div class="preco">
+                  <h2>R$ 1.460,67</h2>
+                  <h1>R$ 1.300,00 <span>No Pix</span></h1>
+                  <h4>(-11%)</h4>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Filter Item -->
+            <div class="item" data-filter-categories="dell">
+
+              <div class="card">
+
+                <div class="item__thumbnail"><img
+                    src="https://images.unsplash.com/photo-1508264165352-258db2ebd59b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2576&q=80"
+                    alt="Image">
+                </div>
+
+                <div class="item__title">
+                  <h1>Dell</h1>
+                  <h2>NOTEBOOK Intel Core i5 - 5ª GERAÇÃO</h2>
+                </div>
+
+                <ul>
+                  <li>SSD - 240Gb</li>
+                  <li>PLACA DE VIDEO</li>
+                  <li>RAM - 8Gb</li>
+                  <li>PORTA GIGA</li>
+                  <li>5300U CPU</li>
+                  <li>2.30GHZ - 2.29GHZ</li>
+                  <li>SISTEMA OPERACIONAL 64 bites</li>
+                  <li>WINDOWS 10</li>
+                </ul>
+
+                <div class="preco">
+                  <h2>R$ 1.460,67</h2>
+                  <h1>R$ 1.300,00 <span>No Pix</span></h1>
+                  <h4>(-11%)</h4>
+                </div>
+
+              </div>
+
+            </div>
+
+            <!-- Filter Item -->
+            <div class="item" data-filter-categories="lenovo">
+              <div class="card">
+
+
+                <div class="item__thumbnail"><img
+                    src="https://images.unsplash.com/photo-1697386576502-812fce23b209?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2456"
+                    alt="Image">
+                </div>
+
+                <div class="item__title">
+                  <h1>Lenovo</h1>
+                  <h2>NOTEBOOK Intel Core i5 - 5ª GERAÇÃO</h2>
+                </div>
+
+                <ul>
+                  <li>SSD - 240Gb</li>
+                  <li>PLACA DE VIDEO</li>
+                  <li>RAM - 8Gb</li>
+                  <li>PORTA GIGA</li>
+                  <li>5300U CPU</li>
+                  <li>2.30GHZ - 2.29GHZ</li>
+                  <li>SISTEMA OPERACIONAL 64 bites</li>
+                  <li>WINDOWS 10</li>
+                </ul>
+
+                <div class="preco">
+                  <h2>R$ 1.460,67</h2>
+                  <h1>R$ 1.300,00 <span>No Pix</span></h1>
+                  <h4>(-11%)</h4>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Filter Item -->
+            <div class="item" data-filter-categories="hp">
+              <div class="card">
+
+                <div class="item__thumbnail"><img
+                    src="https://images.unsplash.com/photo-1586952205040-22514ffab1a1?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2424"
+                    alt="Image">
+                </div>
+
+                <div class="item__title">
+                  <h1>HP</h1>
+                  <h2>NOTEBOOK Intel Core i5 - 5ª GERAÇÃO</h2>
+                </div>
+
+                <ul>
+                  <li>SSD - 240Gb</li>
+                  <li>PLACA DE VIDEO</li>
+                  <li>RAM - 8Gb</li>
+                  <li>PORTA GIGA</li>
+                  <li>5300U CPU</li>
+                  <li>2.30GHZ - 2.29GHZ</li>
+                  <li>SISTEMA OPERACIONAL 64 bites</li>
+                  <li>WINDOWS 10</li>
+                </ul>
+
+                <div class="preco">
+                  <h2>R$ 1.460,67</h2>
+                  <h1>R$ 1.300,00 <span>No Pix</span></h1>
+                  <h4>(-11%)</h4>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Filter Item -->
+            <div class="item" data-filter-categories="lenovo">
+              <div class="card">
+
+                <div class="item__thumbnail"><img
+                    src="https://images.unsplash.com/photo-1675013888017-6d4c99b70eb1?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2574"
+                    alt="Image">
+                </div>
+
+                <div class="item__title">
+                  <h1>Lenovo</h1>
+                  <h2>NOTEBOOK Intel Core i5 - 5ª GERAÇÃO</h2>
+                </div>
+
+                <ul>
+                  <li>SSD - 240Gb</li>
+                  <li>PLACA DE VIDEO</li>
+                  <li>RAM - 8Gb</li>
+                  <li>PORTA GIGA</li>
+                  <li>5300U CPU</li>
+                  <li>2.30GHZ - 2.29GHZ</li>
+                  <li>SISTEMA OPERACIONAL 64 bites</li>
+                  <li>WINDOWS 10</li>
+                </ul>
+
+                <div class="preco">
+                  <h2>R$ 1.460,67</h2>
+                  <h1>R$ 1.300,00 <span>No Pix</span></h1>
+                  <h4>(-11%)</h4>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Filter Item -->
+            <div class="item" data-filter-categories="dell">
+              <div class="card">
+
+                <div class="item__thumbnail"><img
+                    src="https://images.unsplash.com/photo-1507371341162-763b5e419408?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2539"
+                    alt="Image">
+                </div>
+
+                <div class="item__title">
+                  <h1>Dell</h1>
+                  <h2>NOTEBOOK Intel Core i5 - 5ª GERAÇÃO</h2>
+                </div>
+
+                <ul>
+                  <li>SSD - 240Gb</li>
+                  <li>PLACA DE VIDEO</li>
+                  <li>RAM - 8Gb</li>
+                  <li>PORTA GIGA</li>
+                  <li>5300U CPU</li>
+                  <li>2.30GHZ - 2.29GHZ</li>
+                  <li>SISTEMA OPERACIONAL 64 bites</li>
+                  <li>WINDOWS 10</li>
+                </ul>
+
+                <div class="preco">
+                  <h2>R$ 1.460,67</h2>
+                  <h1>R$ 1.300,00 <span>No Pix</span></h1>
+                  <h4>(-11%)</h4>
+                </div>
+
+              </div>
             </div>
 
 
@@ -36,283 +315,23 @@
 
 
 
-
-            <div id="container">
-
-                <div class="label">
-                    <label class="cars" for="cars">CLIENTE:</label>
-                    <select style="width: 150px" id="id" name="id">
-                        <option value=""></option>
-                        <option value="SIPCAM - 155874">SIPCAM - 155874</option>
-                        <option value="FAVINI - 857441">FAVINI - 857441</option>
-                        <option value="JOHNSON - 1548731">JOHNSON - 1548731</option>
-                        <option value="2S">2S</option>
-                    </select>
-
-                    <label class="cars" for="cars">MOTIVO DE ACESSO:</label>
-                    <select style="width: 90px" id="acesso" name="acesso">
-                        <option value=""></option>
-                        <option value="COLETA">COLETA</option>
-                        <option value="DESCARGA">DESCARGA</option>
-                        <option value="VISITANTE">VISITANTE</option>
-                    </select>
-
-                    <label class="cars" for="cars">TRANSPORTADORAS:</label>
-                    <select style="width: 200px" id="transpt" name="transpt">
-                        <option value=""></option>
-                        <option value="Retira - 47847178574153">Retira - 47847178574153</option>
-                        <option value="TRANSPORT - 58747852365487">TRANSPORT - 58747852365487</option>
-                        <option value="VENTURIAT - 58747242568746">VENTURIAT - 58747242568746</option>
-                    </select>
-
-                    <label class="cars" for="cars">TIPO DE VEICULO:</label>
-                    <select style="width: 110px" id="veiculo" name="veiculo">
-                        <option value=""></option>
-                        <option value="HR">HR</option>
-                        <option value="MOTO">MOTO</option>
-                        <option value="PASSEIO">PASSEIO</option>
-                        <option value="TOCO">TOCO</option>
-                        <option value="TRUCK">TRUCK</option>
-                    </select>
-                </div>
-                <div class="grdet">
-                    <div class="grid">
-                        <h1>DATA DO AGENDAMENTO<output type="date" id="data" name="data"></output></h1>
-                        <h1>HORAS DO AGENDAMENTO<output type="date" id="hora" name="hora"></output></h1>
-                        <h1>CARGA<input style="width: 120px" type="number" name="carga" id="carga"></h1>
-                        <h1>DOCA<input style="width: 60px" type="number" name="doca" id="doca"></h1>
-                        <h1>NOME DO MOTORISTA<input style="width: 200px" type="text" name="nome" id="nome"></h1>
-                        <h1>DOCUMENTO DO MOTORISTA<input style="width: 130px" type="number" name="cpf" id="cpf">
-                        </h1>
-                        <h1>1°PLACA<input style="width: 70px" type="text" name="rg" id="rg"></h1>
-                        <h1>2°PLACA<input style="width: 70px" type="text" name="placa" id="placa"></h1>
-
-                    </div>
-
-                    <div class="gridee">
-                        <h1>DATA DA COLETA<input style="width: 110px" type="date" name="coletadat" id="coletadat">
-                        </h1>
-                        <h1>HORAS DA COLETA<input style="width: 70px; padding: 0px 10px" type="time" name="coletahoras"
-                                id="coletahoras"></h1>
-
-
-
-
-                        <h1>NOME DO AJUDANTE <input style="width: 200px" type="text" name="namjudant" id="namjudant">
-                        </h1>
-                        <h1>DOCUMENTO DO AJUDANTE<input style="width: 130px" type="number" name="docjudant"
-                                id="docjudant"></h1>
-
-                        <div>
-
-                        </div>
-                        <div>
-
-                        </div>
-
-                    </div>
-                </div>
-                <button id="inserirPessoa">AGENDAR</button>
-
-            </div>
-
-
+          </div>
         </div>
+      </div>
+    </div>
+  </section>
+  <section class="section2" style="height: 10vh;">
+    <div class="sectiontop2"></div>
+    
+      </section>
+
+  <footer>
+    <p>Seusite - 2024, todos os direitos reservados.</p>
+    <h1>Desenvolvido por: <a href="https://desenvolvedor-dev-jonasfab.netlify.app/">Jonas</a></h1>
+  </footer>
 
 
-    </section>
-
-    <section id="page-2">
-        <a href="#page-1"><img src="icons8.png"></a>
-
-        <div class="titl">
-            <h1>LISTA DE AGENDAMENTO</h1>
-        </div>
-
-        <table id="cadastrosPessoa">
-            <tr>
-                <th style="width: -10vh">DATA DO AGENDAM</th>
-                <th>HORAS DO AGENDAM</th>
-                <th>CLIENTE</th>
-                <th>CARGA</th>
-                <th>TIPO DE ACESSO</th>
-                <th>DOCA</th>
-                <th>Transportadoras</th>
-                <th>Nome</th>
-                <th>DOCUMENTO</th>
-                <th>1°PLACA</th>
-                <th>2°PLACA</th>
-                <th>TIPO DE VEICULO </th>
-                <th>DATA DA COLETA</th>
-                <th>HORAS DA COLETA</th>
-                <th>NOME DO AJUDANTE</th>
-                <th>DOCUMENTO DO AJUDANTE</th>
-
-            </tr>
-        </table>
-
-    </section>
-
-
-
-    <script>
-
-        let botaoInserirPessoa = document.querySelector("#inserirPessoa");
-        let tabela = document.querySelector("#cadastrosPessoa")
-
-        let campoData = document.querySelector("#data")
-        let campoHora = document.querySelector("#hora")
-        let campoId = document.querySelector("#id")
-        let campoCarga = document.querySelector("#carga")
-        let campoAcesso = document.querySelector("#acesso")
-        let campoDoca = document.querySelector("#doca")
-        let campoTranspt = document.querySelector("#transpt")
-        let campoNome = document.querySelector("#nome")
-        let campoCpf = document.querySelector("#cpf")
-        let campoRg = document.querySelector("#rg")
-        let campoPlaca = document.querySelector("#placa")
-        let campoVeiculo = document.querySelector("#veiculo")
-        let campoColetadat = document.querySelector("#coletadat")
-        let campoColetahoras = document.querySelector("#coletahoras")
-        let campoNamjudant = document.querySelector("#namjudant")
-        let campoDocjudant = document.querySelector("#docjudant")
-
-        let botaoExcluir = document.querySelector(".material-icons")
-
-        let bancoDeCadastros = [
-
-        ]
-
-        let renderCadastros = banco => {
-
-            for (let i = 0; i < bancoDeCadastros.length; i++) {
-
-                let novaTabela = `<tr id="${banco[i].data}">  
-                                <td>${banco[i].data}</td>
-                                <td>${banco[i].hora}</td>
-                                <td>${banco[i].id}</td>
-                                <td>${banco[i].carga}</td>
-                                <td>${banco[i].acesso}</td>
-                                <td>${banco[i].doca}</td>
-                                <td>${banco[i].transpt}</td>
-                                <td>${banco[i].nome}</td>
-                                <td>${banco[i].cpf}</td>
-                                <td>${banco[i].rg}</td>
-                                <td>${banco[i].placa}</td>
-                                <td>${banco[i].veiculo}</td>
-                                <td>${banco[i].coletadat}</td>
-                                <td>${banco[i].coletahoras}</td>
-                                <td>${banco[i].namjudant}</td>
-                                <td>${banco[i].docjudant}</td>
-                                <td class="material-icons">delete_forever</td>
-                            </tr>`
-
-                tabela.innerHTML += novaTabela
-            }
-        }
-
-        botaoInserirPessoa.addEventListener("click", () => {
-
-            let data = campoData.value
-            let hora = campoHora.value
-            let id = campoId.value
-            let carga = campoCarga.value
-            let acesso = campoAcesso.value
-            let doca = campoDoca.value
-            let transpt = campoTranspt.value
-            let nome = campoNome.value
-            let cpf = campoCpf.value
-            let rg = campoRg.value
-            let placa = campoPlaca.value
-            let veiculo = campoVeiculo.value
-            let coletadat = campoColetadat.value
-            let coletahoras = campoColetahoras.value
-            let namjudant = campoNamjudant.value
-            let docjudant = campoDocjudant.value
-
-            let novaTabela = `<tr id="${data}">  
-                            <td>${data}</td>
-                            <td>${hora}</td>
-                            <td>${id}</td>
-                            <td>${carga}</td>
-                            <td>${acesso}</td>
-                            <td>${doca}</td>
-                            <td>${transpt}</td>
-                            <td>${nome}</td>
-                            <td>${cpf}</td>
-                            <td>${rg}</td>
-                            <td>${placa}</td>
-                            <td>${veiculo}</td>
-                            <td>${coletadat}</td>
-                            <td>${coletahoras}</td>
-                            <td>${namjudant}</td>
-                            <td>${docjudant}</td>
-                            <td class="material-icons">delete_forever</td>
-                        </tr>`
-
-            //Limpa os campos do formulário                
-            campoData.value = ""
-            campoHora.value = ""
-            campoId.value = ""
-            campoCarga.value = ""
-            campoAcesso.value = ""
-            campoDoca.value = ""
-            campoTranspt.value = ""
-            campoNome.value = ""
-            campoCpf.value = ""
-            campoRg.value = ""
-            campoPlaca.value = ""
-            campoVeiculo.value = ""
-            campoColetadat.value = ""
-            campoColetahoras.value = ""
-            campoNamjudant.value = ""
-            campoDocjudant.value = ""
-
-            //Inclui os novos dados na tabela
-            tabela.innerHTML += novaTabela
-
-            //Atualiza o banco de cadatros
-            let novoCadastro = {
-                "data": data,
-                "hora": hora,
-                "id": id,
-                "carga": carga,
-                "acesso": acesso,
-                "doca": doca,
-                "transpt": transpt,
-                "nome": nome,
-                "cpf": cpf,
-                "rg": rg,
-                "placa": placa,
-                "veiculo": veiculo,
-                "coletadat": coletadat,
-                "coletahoras": coletahoras,
-                "namjudant": namjudant,
-                "docjudant": docjudant,
-            }
-
-            bancoDeCadastros.push(novoCadastro)
-        })
-
-        renderCadastros(bancoDeCadastros)
-
-        document.addEventListener('click', (e) => {
-            if (e.target.getAttribute('class') == 'material-icons') {
-                alert(e.target.parentNode.id)
-                document.getElementById(e.target.parentNode.id).remove()
-
-            }
-
-        })
-
-    </script>
-
-
-
+  <script src="main.js"></script>
 </body>
-<script src="horas.js"></script>
-<script src="/scripts.js"></script>
-
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </html>
