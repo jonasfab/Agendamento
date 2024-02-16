@@ -30,15 +30,75 @@ section {
   background-color: #3f756c;
 }
 
+
+
 .section2 {
   padding: 10px 10px 15px 10px;
+
 }
 .sectiontop2 {
+  width: 100%;
+
+  border-radius: 10px;
+  background-color: #819784;
+  display: flex;
+  justify-content: right;
+  padding: 15px 30px 15px 0px;
+
+}
+.section2 iframe{
+
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
+  position: relative;
+border: 0;
+}
+.descric {
+  text-align: center;
+  padding: 0px 12px 0px 12px;
+  color: white;
+}
+.descric h1{
+  padding: 15px 0px 20px 0px;
+}
+.descric p{
+  padding: 5px 0px 20px 0px;
+}
+.descric h4{
+position: relative;
+top: 40px;
+}
+
+.section3 {
+  padding: 10px 10px 15px 10px;
+
+}
+.sectiontop3 {
   width: 100%;
   height: 100%;
   border-radius: 10px;
   background-color: #819784;
+  text-align: center;
+
+  padding: 20px 10px ;
+  color: #f0eeee;
 }
+.sectiontop3 h1 {
+  color: #464646;
+  
+}
+.sectiontop3 p {
+  position: relative;
+  top: 10px;
+
+}
+
+.section4{
+  background-color: #3f756c;
+}
+
+
 
 body {
   font-family: var(--ff-sans);
@@ -216,7 +276,7 @@ img {
 }
 
 .voool {
-  padding: 0px 10px 25px 10px;
+  padding: 0px 10px 5px 10px;
 }
 .card{
   height: 100%;
@@ -293,27 +353,106 @@ bottom: 5px;
 
 }
 
-footer {
-text-align: center;
-  width: 100%;
-  height: 15vh;
-  background-color: #414141;
-}
-
 footer p{
-position: relative;
-top: 30px;
+  text-align: center;
+  width: 100%;
 color: #c0c0c0;
 font-size: 15px;
+height: 100%;
+background-color: #414141;
+padding: 20px;
 }
-footer h1{
-  position: relative;
-  top: 35px;
-  color: #c0c0c0;
-  font-size: 15px;
-}
-footer h1 a{
+
+
+
+
+
+
+
+
+
+
+
+
+/* inicio-Botão-whats-1*/
+
+.frame {
+  text-align: center;
  
- color: #c0c0c0;
 
 }
+
+.custom-btn {
+  width: 200px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+.btn-11 {
+  border: none;
+  background: rgb(17, 179, 85);
+    background: linear-gradient(0deg, rgb(100, 255, 69) 0%, rrgb(29, 206, 52)100%);
+    color: #fff;
+    overflow: hidden;
+}
+.btn-11:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.btn-11:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 3s ease-in-out infinite;
+}
+.btn-11:hover{
+  opacity: .7;
+}
+.btn-11:active{
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+
+@-webkit-keyframes shiny-btn1 {
+    0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+    80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+    81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+    100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+}
+/* fim-Botão-whats-1*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
